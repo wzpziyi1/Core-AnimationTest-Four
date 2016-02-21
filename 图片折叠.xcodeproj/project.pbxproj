@@ -12,10 +12,10 @@
 		091794621C72C19A0089A720 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 091794611C72C19A0089A720 /* ViewController.m */; };
 		091794651C72C19A0089A720 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091794631C72C19A0089A720 /* Main.storyboard */; };
 		091794681C72C19A0089A720 /* ____.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 091794661C72C19A0089A720 /* ____.xcdatamodeld */; };
-		0917946A1C72C19A0089A720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 091794691C72C19A0089A720 /* Assets.xcassets */; };
 		0917946D1C72C19A0089A720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0917946B1C72C19A0089A720 /* LaunchScreen.storyboard */; };
 		091794781C72C19A0089A720 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 091794771C72C19A0089A720 /* ____Tests.m */; };
 		091794831C72C19A0089A720 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 091794821C72C19A0089A720 /* ____UITests.m */; };
+		091794911C72C4210089A720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 091794901C72C4210089A720 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,6 @@
 		091794611C72C19A0089A720 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		091794641C72C19A0089A720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		091794671C72C19A0089A720 /* ____.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "____.xcdatamodel"; sourceTree = "<group>"; };
-		091794691C72C19A0089A720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0917946C1C72C19A0089A720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0917946E1C72C19A0089A720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		091794731C72C19A0089A720 /* 图片折叠Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "图片折叠Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +52,7 @@
 		0917947E1C72C19A0089A720 /* 图片折叠UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "图片折叠UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		091794821C72C19A0089A720 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		091794841C72C19A0089A720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		091794901C72C4210089A720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +108,10 @@
 				091794601C72C19A0089A720 /* ViewController.h */,
 				091794611C72C19A0089A720 /* ViewController.m */,
 				091794631C72C19A0089A720 /* Main.storyboard */,
-				091794691C72C19A0089A720 /* Assets.xcassets */,
 				0917946B1C72C19A0089A720 /* LaunchScreen.storyboard */,
 				0917946E1C72C19A0089A720 /* Info.plist */,
 				091794661C72C19A0089A720 /* ____.xcdatamodeld */,
+				091794901C72C4210089A720 /* Assets.xcassets */,
 				0917945A1C72C19A0089A720 /* Supporting Files */,
 			);
 			path = "图片折叠";
@@ -247,7 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0917946D1C72C19A0089A720 /* LaunchScreen.storyboard in Resources */,
-				0917946A1C72C19A0089A720 /* Assets.xcassets in Resources */,
+				091794911C72C4210089A720 /* Assets.xcassets in Resources */,
 				091794651C72C19A0089A720 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
